@@ -19,15 +19,17 @@ header{
 header p{
     font-style: italic;
 }
-
+header button{
+    background-color: #9b6631 !important;
+    border-color: #9b6631 !important;
+    font-family: 'Roboto', cursive;}
 .aboutus {
     text-align: center;
 }
-
 .aboutus i{
     font-size: 30px;
     padding: 25px 25px;
- 
+    
    /*change the color*/
     color: #fff;
     background-color: #5cb85c;
@@ -39,12 +41,59 @@ header p{
     /*make the conatiner round*/
     border-radius: 50%;
 }
-
 .aboutus span{
     width: 200px;
     display: inline-block;
 }
-header button{
-    background-color: #9b6631 !important;
-    border-color: #9b6631 !important;
-    font-family: 'Roboto', cursive;}
+/*Team*/
+.team{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.team img{
+    width: 250px;
+    height: 250px;
+    /*Object fit will crop and center image based on width and height*/
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+/*Get Involved*/
+.getinvolved{
+    background-color: #AAD2D2;
+    text-align: center;
+    /*adds padding on top and bottom*/
+    padding: 50px 0 80px;
+    margin-top: 50px;
+    width: 100%;
+}
+.getinvolved h1{
+    color: #fff;
+    
+}
+
+.options{
+    padding: 30px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.getinvolved i{
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+}
+
+.contact .btn {
+    border-radius: 0;
+    width: 100%;
+    font-size: 15px;
+    background-color: #f08080;
+    color: #fff;
+}
